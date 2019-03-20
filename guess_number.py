@@ -1,8 +1,8 @@
 import random
 r = random.randint(1,100)
-
+count = 0
 while True:
-	
+	count += 1
 	guess = input("輸入數字: ")
 	guess = int(guess)
 	if guess == r:
